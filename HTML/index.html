@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex UI</title>
+    <link rel="icon" href="./images/user-interface.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary px-md-5 px-1" id="navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Complex UI</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Section 1</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Section 2</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Section 3</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <!-- main section -->
+    <main>
+        <!-- carousels -->
+        <section>
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./images/Pic-1.jpg" class="d-block w-100" alt="img">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>First Slide Title</h5>
+                      <p>First slide description</p>
+                      <button class="btn btn-primary" type="submit">Call to Action</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/Pic-2.jpg" class="d-block w-100" alt="img">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Second Slide Title</h5>
+                      <p>Second slide description</p>
+                      <button class="btn btn-primary" type="submit">Call to Action</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/Pic-3.jpg" class="d-block w-100" alt="img">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third Slide Title</h5>
+                      <p>Third slide description</p>
+                      <button class="btn btn-primary" type="submit">Call to Action</button>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+
+        <div class="main-container">
+        <!-- 3 images and short description -->
+        <section class="flex-div">
+            <div class="image">
+                <img src="./images/flex-1.jpg" alt="img">
+                <p>Short description</p>
+            </div>
+
+            <div class="image">
+                <img src="./images/flex-2.jpg" alt="img">
+                <p>Short description</p>
+            </div>
+
+            <div class="image">
+                <img src="./images/flex-3.jpg" alt="img">
+                <p>Short description</p>
+            </div>
+        </section>
+
+        <!-- photo gallery -->
+        <section class="grid-div">
+          <div class="gallery-container width-span-2 height-span-2">
+            <div class="gallery-image">
+              <img src="./images/grid-1.jpg" alt="img">
+            </div>
+          </div>
+
+          <div class="gallery-container">
+            <div class="gallery-image">
+              <img src="./images/grid-2.jpg" alt="img">
+            </div>
+          </div>
+
+          <div class="gallery-container">
+            <div class="gallery-image">
+              <img src="./images/grid-3.jpg" alt="img">
+            </div>
+          </div>
+
+          <div class="gallery-container width-span-2">
+            <div class="gallery-image">
+              <img src="./images/grid-1.4.jpg" alt="img">
+            </div>
+          </div>
+
+          <div class="gallery-container">
+            <div class="gallery-image">
+              <img src="./images/grid-5.jpg" alt="img">
+            </div>
+          </div>
+
+          <div class="gallery-container">
+            <div class="gallery-image">
+              <img src="./images/grid-6.jpg" alt="img">
+            </div>
+          </div>
+
+          <div class="gallery-container width-span-2">
+            <div class="gallery-image">
+              <img src="./images/grid-7.jpg" alt="img">
+            </div>
+          </div>
+
+          <div class="gallery-container width-span-2 height-span-2">
+            <div class="gallery-image">
+              <img src="./images/grid-8.jpg" alt="img">
+            </div>
+          </div>
+
+          <div class="gallery-container width-span-4 height-span-2">
+            <div class="gallery-image">
+              <img src="./images/grid-9.jpg" alt="img">
+            </div>
+          </div>
+          
+              
+        </section>
+
+        <!-- cards -->
+        <section class="cards d-flex justify-content-center my-5">
+          <div class="card shadow" style="width: 18rem;">
+            <img src="./images/card-1.jpg" class="card-img-top w-300 h-200" alt="card" w-300px h-200px>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Call to Action</a>
+            </div>
+          </div>
+          <div class="card shadow" style="width: 18rem;">
+            <img src="./images/card-2.jpg" class="card-img-top w-300 h-200" alt="card">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Call to Action</a>
+            </div>
+          </div>
+          <div class="card shadow" style="width: 18rem;">
+            <img src="./images/card-3.jpg" class="card-img-top w-300 h-200" alt="card">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Call to Action</a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- footer section -->
+    <footer>
+      <div class="container-fluid bg-body-secondary p-1">
+        <div class="container mt-5">
+            <div class="row my-4">
+                <div class="col">
+                    <h3>Useful Links</h3>
+                    <div class="d-flex flex-column">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>More Links</h3>
+                    <div class="d-flex flex-column">
+                        <a href="#">Link 4</a>
+                        <a href="#">Link 5</a>
+                        <a href="#">Link 6</a>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>Contact Us</h3>
+                    <p>Email: example@example.com</p>
+                    <p>Phone: +1 (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="copyright row d-flex align-items-center my-4">
+                <div class="col">
+                <span>&#169;</span> 2023 Complex UI. All rights reserved.
+                </div>
+                <div class="col">
+                    <a class="btn btn-primary float-end" href="#navbar">Back to Top</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
